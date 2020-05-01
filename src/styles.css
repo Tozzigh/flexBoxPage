@@ -158,3 +158,96 @@ h2{
 img{
     max-width:100%;
 }
+/*////////////////////////////////////////////////////////////////////////////*/
+.people{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-flow: column wrap;  
+    align-items: center;  
+}
+.imgPeoples{
+    display: flex;
+    flex-flow: row wrap;  
+    width: 75%;    
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.peopleCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;  
+}
+.peopleCard > img{
+    border-radius: 50%;
+    width: 180px; 
+    height: 180px;
+}
+.peopleCard > h2{
+    font-size: 25px;
+}
+.peopleCard > p{
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+.footer{
+    display: flex;
+    background-image: url("bg-masthead.jpg");
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.comeOn{
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    width: 56%;
+    text-align: center;
+    font-weight: bold;
+}
+/*////////////////////////////////////////////////////////////////////////////*/
+.footNav{
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.footContainer{
+    display: flex;       
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+.footLinks{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    width: 40%;
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+}
+.social > img{
+    width: 35px;
+    height: 35px;
+}
+.footLef{
+    display: flex;
+    flex-wrap: wrap;
+    color: #039BE5;
+    font-size: 20px;
+}
+.footLinks > p{
+    margin-top: 0;
+    color: grey;
+}
