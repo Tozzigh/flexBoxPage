@@ -1,6 +1,6 @@
 # ![alt text](https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=breathecode,32)  Simple Landing Page
 
-!https://github.com/breatheco-de/landing-page-javascript/blob/master/preview.gif?raw=true
+![]https://github.com/breatheco-de/landing-page-javascript/blob/master/preview.gif?raw=true
 
 The best way to learn is by creating real life projects, this is the typical landing page your boss or a startup company owner will like to build.
 
